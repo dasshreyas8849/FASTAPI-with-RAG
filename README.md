@@ -7,29 +7,7 @@ The application processes a PDF document, splits it into smaller chunks, generat
 
 ## Architecture
 
-PDF File
-    |
-    v
-PDF Loader
-    |
-    v
-Text Splitter
-    |
-    v
-OpenAI Embeddings
-    |
-    v
-Qdrant Vector Database
-    |
-    | Similarity Search
-    v
-FastAPI Query Endpoint
-    |
-    v
-GPT-5
-    |
-    v
-Generated Answer
+PDF File-> PDF Loader-> Text Splitter-> OpenAI Embeddings -> Qdrant Vector Database -> Similarity search -> FastAPI Query Endpoint -> GPT-5 -> Generated Answer
 
 ## Features
 
