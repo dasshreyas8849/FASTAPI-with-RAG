@@ -1,3 +1,6 @@
+# FastAPI RAG API
+
+
 A Retrieval-Augmented Generation (RAG) API built with FastAPI, LangChain, Qdrant, and OpenAI.
 
 The application processes a PDF document, splits it into smaller chunks, generates vector embeddings, stores those embeddings in Qdrant, and uses semantic similarity search to retrieve relevant information when answering user questions.
